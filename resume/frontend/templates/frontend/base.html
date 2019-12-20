@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    {% include 'css.html' %}
+    {% include 'frontend/css.html' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dhaval Pantojee</title>
   </head>
   <body>
-    {% include 'navbar.html' %} {% block content %} {% endblock content %}
-    <div class="js-content">{%include 'js.html'%}</div>
+    {% include 'frontend/navbar.html' %} 
+    {% block content %} {% endblock content%}
+    <div class="js-content">{%include 'frontend/js.html'%}</div>
   </body>
 </html>
