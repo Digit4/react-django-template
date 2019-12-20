@@ -7,12 +7,13 @@ This is a a template project for Django with react frontend.
 1. `cd {your selected location}`
 1. `mkdir replace_with_your_base_folder_name`
 1. `cd replace_with_your_base_folder_name`
-1. `git clone https://github.com/Digit4/react-django-template.git .`
+1. `git clone https://github.com/Digit4/react-django-template.git .` 
+**DO NOT FORGET THE DOT(.) at the end**
 1. `git reset 1b5ec12316b1d5179f824eed03be6c740a57191e --hard`
 1. `git remote remove origin`
    You basically are not required to be connected to the origin since from now on you'll be developing a your own version from now on.
 
-1. `npm init`
+1. `npm init -y`
 1. `npm i`
 
 ### Now that all the code has been setup...
