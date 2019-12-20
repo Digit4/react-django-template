@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./resume/frontend/src/index.js --output ./resume/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./resume/frontend/src/index.js --output ./resume/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./resume/frontend/src/index.js --output ./resume/frontend/static/frontend/main.js"
   },
   "author": "",
