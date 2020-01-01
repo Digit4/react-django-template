@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a a template project for Django with react frontend.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch ./resume/frontend/src/index.js --output ./resume/frontend/static/frontend/main.js",
@@ -15,6 +15,7 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.4.0",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10"
   },
@@ -22,5 +23,6 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  }
+  },
+  "keywords": []
 }
